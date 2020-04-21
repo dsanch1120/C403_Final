@@ -71,10 +71,7 @@ void TransferRatings::writeData() {
     string output = "INSERT INTO office_ratings";
     wData << output << endl;
     output = "VALUES (";
-    for (int i = 0; i < 1; ++i) {
-        output += data.at(i) + ", ";
-    }
-
+    output += data.at(0) + ", " + data.at(1) + ", ";
     output += '\'' + data.at(2) + '\'';
 
     output += ", ";
