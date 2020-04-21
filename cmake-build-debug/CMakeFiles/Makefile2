@@ -73,12 +73,12 @@ clean: CMakeFiles/theOfficeData.dir/clean
 CMakeFiles/theOfficeData.dir/all:
 	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/depend
 	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target theOfficeData"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target theOfficeData"
 .PHONY : CMakeFiles/theOfficeData.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/theOfficeData.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/theOfficeData.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/theOfficeData.dir/rule

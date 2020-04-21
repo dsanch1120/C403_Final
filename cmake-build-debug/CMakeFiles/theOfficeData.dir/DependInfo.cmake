@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/dsanc/CLionProjects/theOfficeData/Transfer.cpp" "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir/Transfer.cpp.obj"
+  "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/TransferRatings.cpp" "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj"
+  "C:/Users/dsanc/CLionProjects/theOfficeData/TransferScript.cpp" "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj"
   "C:/Users/dsanc/CLionProjects/theOfficeData/main.cpp" "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

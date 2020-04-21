@@ -1,17 +1,17 @@
 //
-// Created by dsanchez on 3/30/20.
+// Created by Daniel Sanchez on 3/30/20.
 //
 
-#ifndef THEOFFICEDATA_TRANSFER_H
-#define THEOFFICEDATA_TRANSFER_H
+#ifndef THEOFFICEDATA_TRANSFERSCRIPT_H
+#define THEOFFICEDATA_TRANSFERSCRIPT_H
 
 
 #include <string>
 #include <vector>
 
-class Transfer {
+class TransferScript {
 public:
-    Transfer();
+    TransferScript();
     void readData();
 private:
     void writeData();
@@ -24,4 +24,4 @@ private:
 };
 
 
-#endif //THEOFFICEDATA_TRANSFER_H
+#endif //THEOFFICEDATA_TRANSFERSCRIPT_H

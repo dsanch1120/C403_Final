@@ -1,15 +1,15 @@
 //
-// Created by dsanchez on 3/30/20.
+// Created by Daniel Sanchez on 3/30/20.
 //
 
-#include "Transfer.h"
+#include "TransferScript.h"
 #include <iostream>
 #include <vector>
 #include <string>
 #include <fstream>
 using namespace std;
 
-Transfer::Transfer() {
+TransferScript::TransferScript() {
     data.resize(7);
     ofstream ofs;
     ofs.open(WRITE_FILE, ofstream::out | ofstream::trunc);
@@ -30,7 +30,7 @@ Transfer::Transfer() {
     ofs.close();
 }
 
-void Transfer::readData() {
+void TransferScript::readData() {
     ifstream rData;
     string temp = "";
     rData.open(READ_FILE);
@@ -75,7 +75,7 @@ void Transfer::readData() {
     }
     rData.close();
 }
-void Transfer::writeData() {
+void TransferScript::writeData() {
     if (data.at(0) == "") {
         return;
     }
@@ -90,13 +90,6 @@ void Transfer::writeData() {
         output += data.at(i) + ", ";
     }
 
-    /*
-    if (data.at(4).at(0) != '\'') {
-        output += '\'' + data.at(4) + '\'';
-    } else {
-        output += data.at(4);
-    }
-    */
     output += '\'' + data.at(4) + '\'';
 
     output += ", ";
@@ -110,7 +103,7 @@ void Transfer::writeData() {
 
 }
 
-void Transfer::checkName() {
+void TransferScript::checkName() {
     vector<string> badName = makeBadName();
     vector<string> goodName = makeGoodName();
 
@@ -121,7 +114,7 @@ void Transfer::checkName() {
     }
 }
 
-vector<string> Transfer::makeBadName() {
+vector<string> TransferScript::makeBadName() {
     vector<string> badName(0);
     badName.emplace_back("David Wallace");
     badName.emplace_back("Daryl");
@@ -137,7 +130,7 @@ vector<string> Transfer::makeBadName() {
     return badName;
 }
 
-vector<string> Transfer::makeGoodName() {
+vector<string> TransferScript::makeGoodName() {
     vector<string> goodName(0);
     goodName.emplace_back("David");
     goodName.emplace_back("Darryl");

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/TransferRatings.cpp
+TransferRatings.h
+C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/TransferRatings.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+
+C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/TransferRatings.h
+string
+-
+vector
+-
+

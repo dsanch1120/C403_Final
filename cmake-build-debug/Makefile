@@ -122,32 +122,59 @@ theOfficeData/fast:
 	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/build
 .PHONY : theOfficeData/fast
 
-Transfer.obj: Transfer.cpp.obj
+TransferRatings.obj: TransferRatings.cpp.obj
 
-.PHONY : Transfer.obj
+.PHONY : TransferRatings.obj
 
 # target to build an object file
-Transfer.cpp.obj:
-	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/Transfer.cpp.obj
-.PHONY : Transfer.cpp.obj
+TransferRatings.cpp.obj:
+	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj
+.PHONY : TransferRatings.cpp.obj
 
-Transfer.i: Transfer.cpp.i
+TransferRatings.i: TransferRatings.cpp.i
 
-.PHONY : Transfer.i
+.PHONY : TransferRatings.i
 
 # target to preprocess a source file
-Transfer.cpp.i:
-	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/Transfer.cpp.i
-.PHONY : Transfer.cpp.i
+TransferRatings.cpp.i:
+	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/TransferRatings.cpp.i
+.PHONY : TransferRatings.cpp.i
 
-Transfer.s: Transfer.cpp.s
+TransferRatings.s: TransferRatings.cpp.s
 
-.PHONY : Transfer.s
+.PHONY : TransferRatings.s
 
 # target to generate assembly for a file
-Transfer.cpp.s:
-	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/Transfer.cpp.s
-.PHONY : Transfer.cpp.s
+TransferRatings.cpp.s:
+	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/TransferRatings.cpp.s
+.PHONY : TransferRatings.cpp.s
+
+TransferScript.obj: TransferScript.cpp.obj
+
+.PHONY : TransferScript.obj
+
+# target to build an object file
+TransferScript.cpp.obj:
+	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj
+.PHONY : TransferScript.cpp.obj
+
+TransferScript.i: TransferScript.cpp.i
+
+.PHONY : TransferScript.i
+
+# target to preprocess a source file
+TransferScript.cpp.i:
+	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/TransferScript.cpp.i
+.PHONY : TransferScript.cpp.i
+
+TransferScript.s: TransferScript.cpp.s
+
+.PHONY : TransferScript.s
+
+# target to generate assembly for a file
+TransferScript.cpp.s:
+	$(MAKE) -f CMakeFiles\theOfficeData.dir\build.make CMakeFiles/theOfficeData.dir/TransferScript.cpp.s
+.PHONY : TransferScript.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -185,9 +212,12 @@ help:
 	@echo ... theOfficeData
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Transfer.obj
-	@echo ... Transfer.i
-	@echo ... Transfer.s
+	@echo ... TransferRatings.obj
+	@echo ... TransferRatings.i
+	@echo ... TransferRatings.s
+	@echo ... TransferScript.obj
+	@echo ... TransferScript.i
+	@echo ... TransferScript.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

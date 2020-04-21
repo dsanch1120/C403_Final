@@ -69,34 +69,49 @@ CMakeFiles/theOfficeData.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/theOfficeData.dir/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dsanc\CLionProjects\theOfficeData\main.cpp -o CMakeFiles\theOfficeData.dir\main.cpp.s
 
-CMakeFiles/theOfficeData.dir/Transfer.cpp.obj: CMakeFiles/theOfficeData.dir/flags.make
-CMakeFiles/theOfficeData.dir/Transfer.cpp.obj: ../Transfer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/theOfficeData.dir/Transfer.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\theOfficeData.dir\Transfer.cpp.obj -c C:\Users\dsanc\CLionProjects\theOfficeData\Transfer.cpp
+CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj: CMakeFiles/theOfficeData.dir/flags.make
+CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj: ../TransferScript.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\theOfficeData.dir\TransferScript.cpp.obj -c C:\Users\dsanc\CLionProjects\theOfficeData\TransferScript.cpp
 
-CMakeFiles/theOfficeData.dir/Transfer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/theOfficeData.dir/Transfer.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dsanc\CLionProjects\theOfficeData\Transfer.cpp > CMakeFiles\theOfficeData.dir\Transfer.cpp.i
+CMakeFiles/theOfficeData.dir/TransferScript.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/theOfficeData.dir/TransferScript.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dsanc\CLionProjects\theOfficeData\TransferScript.cpp > CMakeFiles\theOfficeData.dir\TransferScript.cpp.i
 
-CMakeFiles/theOfficeData.dir/Transfer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/theOfficeData.dir/Transfer.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dsanc\CLionProjects\theOfficeData\Transfer.cpp -o CMakeFiles\theOfficeData.dir\Transfer.cpp.s
+CMakeFiles/theOfficeData.dir/TransferScript.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/theOfficeData.dir/TransferScript.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dsanc\CLionProjects\theOfficeData\TransferScript.cpp -o CMakeFiles\theOfficeData.dir\TransferScript.cpp.s
+
+CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj: CMakeFiles/theOfficeData.dir/flags.make
+CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj: TransferRatings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\theOfficeData.dir\TransferRatings.cpp.obj -c C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\TransferRatings.cpp
+
+CMakeFiles/theOfficeData.dir/TransferRatings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/theOfficeData.dir/TransferRatings.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\TransferRatings.cpp > CMakeFiles\theOfficeData.dir\TransferRatings.cpp.i
+
+CMakeFiles/theOfficeData.dir/TransferRatings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/theOfficeData.dir/TransferRatings.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\TransferRatings.cpp -o CMakeFiles\theOfficeData.dir\TransferRatings.cpp.s
 
 # Object files for target theOfficeData
 theOfficeData_OBJECTS = \
 "CMakeFiles/theOfficeData.dir/main.cpp.obj" \
-"CMakeFiles/theOfficeData.dir/Transfer.cpp.obj"
+"CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj" \
+"CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj"
 
 # External object files for target theOfficeData
 theOfficeData_EXTERNAL_OBJECTS =
 
 theOfficeData.exe: CMakeFiles/theOfficeData.dir/main.cpp.obj
-theOfficeData.exe: CMakeFiles/theOfficeData.dir/Transfer.cpp.obj
+theOfficeData.exe: CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj
+theOfficeData.exe: CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj
 theOfficeData.exe: CMakeFiles/theOfficeData.dir/build.make
 theOfficeData.exe: CMakeFiles/theOfficeData.dir/linklibs.rsp
 theOfficeData.exe: CMakeFiles/theOfficeData.dir/objects1.rsp
 theOfficeData.exe: CMakeFiles/theOfficeData.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable theOfficeData.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dsanc\CLionProjects\theOfficeData\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable theOfficeData.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\theOfficeData.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
