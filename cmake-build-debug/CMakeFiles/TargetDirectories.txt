@@ -1,0 +1,3 @@
+C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir
+C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/rebuild_cache.dir

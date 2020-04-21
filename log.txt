@@ -1,0 +1,42 @@
+4/1/20
+Code has been more or less finished, and the entirety of the office script is now in the mines sql server as a relation
+Problems
+1. Cleaning up data
+    In any data field, data tends to be "messy" and this is certainly no exception. I ran a few basic querries on the relation in sql to see the data.
+    I found that there are a lot of issues that would make a complete analyzation of the data difficult and inaccurate. An example of this is the names.
+    Take for instance the character Darryl Philbin. In the script, he is referred to as Darryl for the most part, however there are around 38 places in
+    the database that return the name "Daryl." This typo leads to an inaccurate count.
+    Another example of this is the character David Wallace. When running an sql querry to see how often each character appears in the script, his name
+    comes up in two different ways. "David" appears 382 times, and "David Wallace" appears 108 times. If the data in it's current state were to be analyzed,
+    one would receive extremely inaccurate information.
+2. Margin of Error
+    In any data, there is likely to be some error, however with roughly 53,000 entries into this relation, error is almost guaranteed. From what I can tell,
+    the main errors in this relation will be repeated names. I haven't yet found any instances of this, but they almost certainly will exist. For instance,
+    the main character's name is Michael Scott, in the script it is read as "Michael." if there were to be another character named "Michael" that will throw
+    off the data.
+3. Bad Formatting
+    Even after all of the clean up that has been done so far, there is still a very big possibility that formatting errors will exist that prevent the sql
+    database from getting every available row.
+Solutions
+1. In order to clean up the data, I will comb through the speaker column and find instances where a character's name has a type or a character is mentioned
+    by their first name in one place and their first+last name in another. I will add a function to the transfer class that checks for the incorrect name
+    and updates it to the correct name. This makes more sense than manually updating the .csv file, as in the case of "David Wallace" hundreds of items
+    would need to be updated.
+2. In order to find a margin of error, I will discuss this potential issue with my partner, and together we will calculate an appropriate margin of error.
+3. I'm going to try and add a try/catch to the .sql script, in theory this will run through the entire script. If there is no error, it will run as normal
+    and the server will have a new office_data relation. However if there is an error, it will stop and I will be able to diagnose the issue.
+
+
+3/30/20
+Created the code. There were numerous bugs and issues to take care of.
+A few notable ones:
+1. There were a few places where the csv file was not properly formatted. This would often come as a double comma, but sometimes was worse.
+    For instance, the first part of the line would be correctly formatted, but the next line would begin with the name of the speaker.
+    Luckily, this was uncommon, and out of the roughly 53,000 lines, there was only about 50 instances of this. So I fixed it manually.
+2. The code had issues with apostrophes and quotation marks. Because an sql querry requires that text entries be surrounded by apostrophes,
+    I had to change around strings so that they would be surrounded by apostrophes. This led to another problem. If the string began with an
+    apostrophe, it would cause an error in sql, as the '' character denotes a normal apostrophe. Because there were not many instances of this (<20),
+    I was again able to go into the csv file and manually change everything.
+3. Another issue arising is the difficultly of going from PopOS to the sql server. I am currently unable to access the SQL server via PopOS, which
+    means that I need to access the mines isengard server in order to the run this code. This creates an issue as it takes a large amount of time to
+    go between bug testing and bug fixing.
