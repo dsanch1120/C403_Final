@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/dsanc/CLionProjects/theOfficeData/TransferScript.cpp
+TransferScript.h
+C:/Users/dsanc/CLionProjects/theOfficeData/TransferScript.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+
+C:/Users/dsanc/CLionProjects/theOfficeData/TransferScript.h
+string
+-
+vector
+-
+
 C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/TransferRatings.cpp
 TransferRatings.h
 C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/TransferRatings.h

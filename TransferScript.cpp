@@ -45,6 +45,8 @@ void TransferScript::readData() {
         data.resize(0);
         getline(rData, temp);
         string output = "";
+        int numCommas = 0;
+
         for (int i = 0; i < temp.length(); ++i) {
             bool skip = false;
             if (temp.at(i) == '\"' && first) {
@@ -61,7 +63,7 @@ void TransferScript::readData() {
                 output += '\'';
             }
             if (!skip) {
-                if (temp.at(i) == ',' && first) {
+                if (((i + 1) != temp.length()) && temp.at(i) == ',' && first && (temp.at(i+1) != ' ')) {
                     data.push_back(output);
                     output = "";
                 } else {
@@ -72,6 +74,7 @@ void TransferScript::readData() {
         data.push_back(output);
         data.resize(6);
         writeData();
+
     }
     rData.close();
 }
