@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\theOfficeData.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\theOfficeData.dir/objects.a @CMakeFiles\theOfficeData.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\theOfficeData.dir/objects.a -Wl,--no-whole-archive  -o theOfficeData.exe -Wl,--out-implib,libtheOfficeData.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\theOfficeData.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/theOfficeData.dir/main.cpp.o CMakeFiles/theOfficeData.dir/TransferScript.cpp.o CMakeFiles/theOfficeData.dir/TransferRatings.cpp.o  -o theOfficeData 

@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj"
-  "CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj"
-  "CMakeFiles/theOfficeData.dir/main.cpp.obj"
-  "libtheOfficeData.dll.a"
-  "theOfficeData.exe"
-  "theOfficeData.exe.manifest"
+  "CMakeFiles/theOfficeData.dir/TransferRatings.cpp.o"
+  "CMakeFiles/theOfficeData.dir/TransferScript.cpp.o"
+  "CMakeFiles/theOfficeData.dir/main.cpp.o"
+  "theOfficeData"
   "theOfficeData.pdb"
 )
 

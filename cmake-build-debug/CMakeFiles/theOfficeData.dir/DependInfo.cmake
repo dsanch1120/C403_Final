@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/TransferRatings.cpp" "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir/TransferRatings.cpp.obj"
-  "C:/Users/dsanc/CLionProjects/theOfficeData/TransferScript.cpp" "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir/TransferScript.cpp.obj"
-  "C:/Users/dsanc/CLionProjects/theOfficeData/main.cpp" "C:/Users/dsanc/CLionProjects/theOfficeData/cmake-build-debug/CMakeFiles/theOfficeData.dir/main.cpp.obj"
+  "/home/daniel/Apps/CLionProjects/C403_Final/cmake-build-debug/TransferRatings.cpp" "/home/daniel/Apps/CLionProjects/C403_Final/cmake-build-debug/CMakeFiles/theOfficeData.dir/TransferRatings.cpp.o"
+  "/home/daniel/Apps/CLionProjects/C403_Final/TransferScript.cpp" "/home/daniel/Apps/CLionProjects/C403_Final/cmake-build-debug/CMakeFiles/theOfficeData.dir/TransferScript.cpp.o"
+  "/home/daniel/Apps/CLionProjects/C403_Final/main.cpp" "/home/daniel/Apps/CLionProjects/C403_Final/cmake-build-debug/CMakeFiles/theOfficeData.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
